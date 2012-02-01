@@ -124,7 +124,7 @@ module Seer
     def to_js
       %{
         <script type="text/javascript">
-          google.load('visualization', '1', {'packages':['geomap']});
+          google.load('visualization', '1', {'packages':['geochart']});
           google.setOnLoadCallback(drawChart);
           function drawChart() {
             var data = new google.visualization.DataTable();
