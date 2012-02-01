@@ -84,7 +84,7 @@ module Seer
 
       %{
         <script type="text/javascript">
-          google.load('visualization', '1', {'packages':['piechart']});
+          google.load('visualization', '1', {'packages':['corechart']});
           google.setOnLoadCallback(drawChart);
           function drawChart() {
             var data = new google.visualization.DataTable();
